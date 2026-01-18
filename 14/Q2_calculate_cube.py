@@ -1,3 +1,4 @@
+# Write a lambda function which accepts one number and returns cube of that number.
 calculate_cube = lambda no: no ** no
 
 def main():

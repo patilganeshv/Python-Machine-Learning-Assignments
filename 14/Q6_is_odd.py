@@ -1,3 +1,4 @@
+# Write a lambda function which accepts one number and returns True if number is odd otherwise False.
 is_odd = lambda no: (True if no%2 != 0 else False)
 def main():
     number = int(input("Enter the Number: "))

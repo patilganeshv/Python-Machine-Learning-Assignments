@@ -1,3 +1,4 @@
+# # Write a program which accepts one number and prints that many numbes staring from 1.
 def print_that_many_numbers(num):
     for i in range(1, num+1):
         print(i, end=" ")

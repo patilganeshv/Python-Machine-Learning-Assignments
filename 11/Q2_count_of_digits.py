@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints count of digits in that number.
 def count_of_digits(num):
     cnt = 0
     while (num != 0):

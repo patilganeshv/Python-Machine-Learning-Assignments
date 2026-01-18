@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints binary equivalent.
 def calculate_binary_equivalent(num):
     binary_equivalent = ""
     while (num != 0):

@@ -1,3 +1,4 @@
+# Write a lambda function which accepts two numbers and returns multiplication.
 multiplication = lambda no_1, no_2: no_1 * no_2
 
 def main():

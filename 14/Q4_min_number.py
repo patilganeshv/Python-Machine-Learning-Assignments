@@ -1,3 +1,4 @@
+# Write a lambda function which accepts two number and returns minimum number.
 min_number = lambda no_1, no_2: (no_1 if no_1 < no_2 else no_2)
 
 def main():

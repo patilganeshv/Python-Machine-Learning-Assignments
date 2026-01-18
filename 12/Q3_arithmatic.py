@@ -1,3 +1,4 @@
+# Write a program which accepts two numbers and prints addition, subtraction, multiplication and division.
 def addition(num1, num2):
     return num1+num2
 

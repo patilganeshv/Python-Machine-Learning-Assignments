@@ -1,3 +1,4 @@
+# Write a program which accepts radium of circle and prints area of circle.
 PI = 3.142
 
 def calculate_area_of_circle(r):

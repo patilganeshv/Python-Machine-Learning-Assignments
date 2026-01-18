@@ -1,3 +1,4 @@
+# Write a lambda function which accepts two numbers and returns addition.
 addition = lambda no_1, no_2: no_1 + no_2
 
 def main():

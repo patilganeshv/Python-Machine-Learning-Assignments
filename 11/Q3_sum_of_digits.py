@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints sum of digits.
 def sum_of_digits(num):
     digit_sum = 0
     while (num != 0):

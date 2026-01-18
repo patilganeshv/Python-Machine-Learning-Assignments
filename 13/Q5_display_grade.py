@@ -1,3 +1,4 @@
+# Write a program which accepts marks and display grade
 def display_grade(mark):
     if mark >= 75:
         return "Distinction"

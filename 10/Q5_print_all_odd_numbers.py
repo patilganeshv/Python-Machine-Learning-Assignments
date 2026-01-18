@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints all odd numbers till that number.
 def print_all_odd_number(num):
     for i in range(num+1):
         if (i%2) != 0:

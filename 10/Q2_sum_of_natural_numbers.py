@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints sum of first N natural number.
 def sum_of_first_n_natural_numbers(num):
     sum = 0
     while (num != 0):

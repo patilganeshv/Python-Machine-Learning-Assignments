@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints multiplication table.
 def multiplication_table(num):
     for i in range(1, 11):
         print(num*i, end=" ")

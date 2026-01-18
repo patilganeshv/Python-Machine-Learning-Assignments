@@ -1,3 +1,4 @@
+# Write a lambda function which accepts one number and returns True if number is even otherwise False.
 is_even = lambda no: (True if no%2 == 0 else False)
 def main():
     number = int(input("Enter the Number: "))

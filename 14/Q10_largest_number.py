@@ -1,3 +1,4 @@
+# Write a lambda function which accepts three numbers and returns largest number.
 largest_number = lambda no_1, no_2, no_3: (no_1 if no_1 > no_2 and no_1 > no_3 else no_2 if no_2 > no_3 else no_3)
 
 def main():

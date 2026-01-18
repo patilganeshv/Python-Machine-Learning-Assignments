@@ -1,3 +1,4 @@
+# Write a program which accepts one charracter and checks whether it is vowel or consonant.
 def check_vowel(ch):
     if ch in ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'):
         return True
@@ -10,7 +11,7 @@ def main():
     if is_vowel:
         print(f"{char} is vowel")
     else:
-        print(f"{char} is not vowel")
+        print(f"{char} is consonant")
 
 if __name__ == "__main__":
     main()

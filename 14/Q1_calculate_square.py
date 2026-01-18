@@ -1,3 +1,4 @@
+# Write a lambda function which accepts one number and returns squre of that number.
 calculate_square = lambda no: no * no
 
 def main():

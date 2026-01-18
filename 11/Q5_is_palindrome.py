@@ -1,3 +1,4 @@
+# Write a program which accepts one number and check whether it is palindrome or not
 def check_palindrome(num):
     rev = 0
     while (num != 0):

@@ -1,3 +1,4 @@
+# Write a program which accepts one number and prints reverse of that number
 def print_reverse_number(num):
     rev = 0
     while (num != 0):
