@@ -1,3 +1,17 @@
+"""
+Write a Python program to implement a class named Arithmetic with the following characteristics:
+.The class should contain two instance variables: Value1 and Value2.
+.Define a constructor (__init__) that initializes all instance variables to 0.
+.Implement the following instance methods:
+    .Accept() - Accepts values for Value1 and Value2 from the user.
+    .Addition() - Returns the addition of Value1 and Value2.
+    .Subtraction() - Returns the subtraction of Value1 and Value2.
+    .Multiplication() - Returns the multiplication of Value1 and Value2.
+    .Division() - Returns the division of Value1 and Value2
+                (handle division by zero properly).
+Create multiple objects of the Arithmetic class and invoke all the instance methods.
+"""
+
 class Arithmatic:
     value = 0
 
@@ -23,6 +37,11 @@ class Arithmatic:
             return self.value_1 // self.value_2
         except ZeroDivisionError as zobj:
             return zobj
+        
+    # def division(self):
+    #     if self.Value2 == 0:
+    #         return "Division by zero is not allowed"
+    #     return self.Value1 / self.Value2
     
     
 obj1 = Arithmatic()
