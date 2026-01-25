@@ -2,7 +2,7 @@
 PI = 3.142
 
 def calculate_area_of_circle(r):
-    return PI * (r * r)
+    return PI * r * r
 
 def main():
     radius = float(input("Enter the radius of circle: "))
