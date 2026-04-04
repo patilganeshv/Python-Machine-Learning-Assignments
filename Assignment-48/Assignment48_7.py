@@ -1,0 +1,29 @@
+"""
+Q: Consider the following data: 
+    Actual Values: [1,1,1,1,0,0,0,0] 
+    Predicted Values: [1,1,0,1,0,1,0,0] 
+    Determine the following values: 
+    True Positive (TP) 
+    True Negative (TN) 
+    False Positive (FP) 
+    False Negative (FN)
+-->
+    Check each case:
+    Index	Actual	Predicted	Result
+    1	    1	    1	        TP
+    2	    1	    1	        TP
+    3	    1	    0	        FN
+    4	    1	    1	        TP
+    5	    0	    0	        TN
+    6	    0	    1	        FP
+    7	    0	    0	        TN
+    8	    0	    0	        TN
+
+    Final Values:
+    True Positive (TP) = 3
+    True Negative (TN) = 3
+    False Positive (FP) = 1
+    False Negative (FN) = 1
+
+    
+"""
